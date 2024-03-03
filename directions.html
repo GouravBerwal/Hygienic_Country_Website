@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Washroom Locator</title>
+
+    <style>
+     .main {
+        background-color: blueviolet;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+      }
+      
+      
+      #table {
+        /* border: 2px solid black; */
+        background-color: bisque;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+        border-radius: 10px;
+      }
+
+      .heading {
+        background-color: blanchedalmond;
+        padding: 10px;
+        font-size: 20px;
+        margin: 15px;
+        border-radius: 10px;
+      }
+
+      th {
+        background-color: blue;
+        font-size: 55px;
+        padding: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        border: 2px solid rgb(247, 247, 247);
+        border-radius: 10px;
+
+      }
+
+      tr {
+        background-color: beige;
+        padding: 50px;
+        font-size: 25px;
+        border: 5px solid black;
+        border-radius: 10px;
+      }
+
+      li {
+        background-color: rgb(129, 205, 208);
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        /* border: 1px solid black; */
+      }
+
+      ol {
+        padding: 40px;
+        border-radius: 10px;
+      }
+
+      #ol-1 {
+      }
+
+      button {
+        font-size: 30px;
+        border-radius: 10px;
+        background-color: rgb(20, 221, 36);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- this is main div -->
+    <div class="main">
+      <!-- this div is for heading part -->
+      <div class="heading">
+        <h1>LIST OF CITIES</h1>
+      </div>
+
+      <div>
+        <table border="5" id="table">
+          <!-- this is for table head -->
+          
+          <tr>
+            <th>S.NO</th>
+            <th>STATE</th>
+            <th>CITY</th>
+            <th>LINK</th>
+          </tr>
+
+          <tr>
+            <td>1</td>
+            <td>Madhya Pradesh</td>
+            <td colspan="2">
+              <ol id="ol-1">
+                <li>
+                  <a
+                    href="http://www.google.co.in/maps/search/Bhopal+public+washrooms/@23.2099825,77.3422554,12.29z?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button>BHOPAL</button>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="http://www.google.co.in/maps/search/indore+public+washrooms/@22.7337738,75.8261288,12z?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button>INDORE</button></a
+                  >
+                </li>
+              </ol>
+            </td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Uttar Pradesh</td>
+            <td colspan="2">
+              <ol id="ol-1">
+                <li>
+                  <a
+                    href="http://www.google.co.in/maps/search/ayodhya+public+washrooms/@26.8180903,82.1575981,11.2z?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><button>AYODHYA</button></a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="http://www.google.co.in/maps/search/CHANDAULI+public+washrooms/@25.2918462,83.0870354,10.48z?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><button>CHANDAUSI</button></a
+                  >
+                </li>
+              </ol>
+            </td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>Himachal Pradesh</td>
+            <td colspan="2">
+              <ol id="ol-1">
+                <li>
+                  <a
+                    href="http:/www.google.co.in/maps/search/solan+public+washrooms/@30.8902876,77.0334178,11.69z?entry=ttu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><button>SOLAN</button></a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="http://www.google.co.in/maps/search/shmila+public+washrooms/@31.0941936,77.1467917,14z/data=!3m1!4b1?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><button>SHIMLA</button></a
+                  >
+                </li>
+              </ol>
+            </td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Rajasthan</td>
+            <td colspan="2">
+              <ol id="ol-1">
+                <li>
+                  <a
+                    href="http://www.google.co.in/maps/search/shmila+public+washrooms/@31.0941936,77.1467917,14z/data=!3m1!4b1?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><button>JAIPUR</button></a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="http://www.google.co.in/maps/search/Jodhpur+public+washrooms/@26.2773486,72.9757519,13z/data=!3m1!4b1?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><button>JODHPUR</button></a
+                  >
+                </li>
+              </ol>
+            </td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>Gujarat</td>
+            <td colspan="2">
+              <ol id="ol-1">
+                <li>
+                  <a
+                    href="http://www.google.co.in/maps/search/ahemdabad+public+washrooms/@23.0276417,72.5511987,13z/data=!3m1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><button>AHEMDABAD</button></a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="http://www.google.co.in/maps/search/surat+public+washrooms/@21.1944119,72.7810912,13z/data=!3m1!4b1?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><button>SURAT</button></a
+                  >
+                </li>
+              </ol>
+            </td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>Maharastra</td>
+            <td colspan="2">
+              <ol id="ol-1">
+                <li>
+                  <a
+                    href="http://www.google.co.in/maps/search/mumbai+public+washrooms/@19.1662934,72.6799089,10z/data=!3m1!4b1?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><button>MUMBAI</button></a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="http://www.google.co.in/maps/search/PUNE+public+washrooms/@18.5216806,73.8400349,13z/data=!3m1!4b1?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><button>PUNE</button></a
+                  >
+                </li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
